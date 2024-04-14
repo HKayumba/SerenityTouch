@@ -698,40 +698,5 @@ button:hover{
     }
 }
 
-#preloader{
-    background: #7374FF url(./Images/preloader.gif) no-repeat center center;
-    background-size: 30%;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-}
-
-.animate{
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-100%);
-    transition: all 1s;
-}
-
-.animate1{
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-}
-
-.reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: all 2s ease;
-}
-
-.reveal.active{
-    transform: translateY(0px);
-    opacity: 1;
-}
-
-
 
 
