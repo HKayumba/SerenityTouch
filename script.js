@@ -23,10 +23,5 @@ function hideMenu(){
    navLink.style.right = "-200px"
 }
 
-// Preloader animation
-var loader = document.getElementById("preloader");
-window.addEventListener("load", function(){
-  loader.style.display = "none"
-})
 
 
